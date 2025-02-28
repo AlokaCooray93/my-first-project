@@ -11,7 +11,6 @@ public class TeacherService {
     @Autowired
     private TeacherRepo teacherRepo;
     public Teacher addTeacher(Teacher teacher){
-        //this is a comment
         return teacherRepo.save(teacher);
     }
 }
