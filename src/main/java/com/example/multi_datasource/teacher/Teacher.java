@@ -11,6 +11,8 @@ public class Teacher {
     private long id;
     @Column(name = "Name")
     private  String name;
+    @Column(name="AGE")
+    private int age;
 
     public void setId(long id) {
         this.id = id;
