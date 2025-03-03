@@ -12,6 +12,8 @@ public class Student {
     private long id;
     @Column(name = "Name")
     private  String name;
+    @Column(name="SUBJECT")
+    private String subject;
 
     public void setId(long id) {
         this.id = id;
